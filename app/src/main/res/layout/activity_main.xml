@@ -6,7 +6,7 @@
 
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    android:layout_gravity="center_horizontal"
+    android:layout_gravity="center_vertical"
     android:orientation="vertical"
     tools:context=".MainActivity">
 
@@ -16,8 +16,9 @@
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
         app:srcCompat="@drawable/empty_dice"
-        tools:layout_editor_absoluteX="105dp"
-        tools:layout_editor_absoluteY="149dp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="92dp"
+        tools:layout_editor_absoluteY="150dp"
         tools:src="@drawable/dice_1" />
 
     <Button
@@ -27,5 +28,6 @@
         android:layout_gravity="center_horizontal"
         android:text="@string/roll"
         tools:layout_editor_absoluteX="135dp"
-        tools:layout_editor_absoluteY="283dp" />
+        tools:layout_editor_absoluteY="283dp"
+        tools:ignore="MissingConstraints" />
 </androidx.constraintlayout.widget.ConstraintLayout>
